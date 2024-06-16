@@ -24,13 +24,13 @@
 
 ***建议使用Chrome浏览器***
 
-从[通义千问](https://tongyi.aliyun.com/qianwen)获取login_tongyi_ticket
+从[通义千问](https://tongyi.aliyun.com/qianwen)获取tongyi_sso_ticket
 
-注册或者登录通义千问后发起一个对话，然后F12打开开发者工具，从Application > Cookies中找到`login_tongyi_ticket`的值，copy保存下来，这将作为API KEY使用。
+注册或者登录通义千问后发起一个对话，然后F12打开开发者工具，从Application > Cookies中找到`tongyi_sso_ticket`的值，copy保存下来，这将作为API KEY使用。
 
 ## 多账号接入
 
-目前通义千问同一账号可以10线程并发，你可以通过提供多个账号的login_tongyi_ticket并使用,拼接提供：
+目前通义千问同一账号可以10线程并发，你可以通过提供多个账号的tongyi_sso_ticket并使用,拼接提供：
 
 Authorization: Bearer TOKEN1,TOKEN2,TOKEN3
 
